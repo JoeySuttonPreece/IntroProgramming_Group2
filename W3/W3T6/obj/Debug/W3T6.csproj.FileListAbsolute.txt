@@ -1,0 +1,6 @@
+C:\Users\102568393\Desktop\temp\W3\W3T6\obj\Debug\W3T6.csprojResolveAssemblyReference.cache
+C:\Users\102568393\Desktop\temp\W3\W3T6\bin\Debug\W3T6.exe.config
+C:\Users\102568393\Desktop\temp\W3\W3T6\bin\Debug\W3T6.exe
+C:\Users\102568393\Desktop\temp\W3\W3T6\bin\Debug\W3T6.pdb
+C:\Users\102568393\Desktop\temp\W3\W3T6\obj\Debug\W3T6.exe
+C:\Users\102568393\Desktop\temp\W3\W3T6\obj\Debug\W3T6.pdb
