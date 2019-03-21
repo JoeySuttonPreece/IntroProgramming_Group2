@@ -8,14 +8,15 @@
  */
 using System;
 
-namespace W4
-{
-	class Program
-	{
-		public static void Main(string[] args)
-		{
+namespace W4 {
+	class Program {
+		public static void Main(string[] args) {
 //			T1_1();
-			T1_2();
+//			T1_2();
+//			T3_1();
+//			T3_2();
+//			T3_3();
+			T3_4();
 			
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
@@ -31,8 +32,7 @@ namespace W4
 			return num;
 		}
 		
-		public static void T1_1() 
-		{
+		public static void T1_1() {
 			string input = Console.ReadLine();
 			
 			string output = "";
@@ -52,8 +52,7 @@ namespace W4
 			}
 		}
 		
-		public static void T1_2() 
-		{
+		public static void T1_2() {
 			string input = Console.ReadLine();
 			
 			int amount = GetNum();
@@ -72,6 +71,102 @@ namespace W4
 			while (counter < amount) {
 				Console.WriteLine(output);
 				counter++;
+			}
+		}
+		
+		public static void T3_1() {
+			string[] names = new string[5];
+			
+			int counter = 0;
+			
+			while (counter < names.Length) {
+				names[counter] = Console.ReadLine();
+				counter++;
+			}
+			
+			while (counter > 0) {
+				counter--;
+				Console.WriteLine("Hello " + names[counter]);
+			}
+		}
+		
+		public static void T3_2() {
+			int[] numbers = new int[]{34, 5, 67, 1, 99, 34, 44, 78, 34, 0};
+			
+			int counter = 0;
+			
+			int sum = 0;
+			
+			while (counter < numbers.Length) {
+				sum += numbers[counter];
+				counter++;
+			}
+			
+			Console.WriteLine(sum);
+		}
+		
+		public static void T3_3() {
+			int[] numbers = new int[5];
+			
+			int counter = 0;
+			
+			Console.WriteLine(String.Format("Please give me {0} numbers and I'll check if the last one is unique.", numbers.Length + 1));
+			
+			while (counter < numbers.Length) {
+				numbers[counter] = GetNum();
+				counter++;
+			}
+			
+			int testNumber = GetNum();
+			
+			counter = 0;
+			
+			bool flag = false;
+			
+			while (counter < numbers.Length) {
+				if (numbers[counter] == testNumber) {
+					flag = true;
+					break;
+				}
+				counter++;
+			}
+			
+			if (flag) {
+				Console.WriteLine("The last number you entered was entered was not unique.");
+			} else {
+				Console.WriteLine("Thanks for the unique number at the end there.");
+			}
+		}
+		
+		public static void T3_4() {
+			int[] numbers = new int[5];
+			
+			int counter = 0;
+			
+			Console.WriteLine(String.Format("Please give me {0} numbers and I'll check if the last one is unique.", numbers.Length + 1));
+			
+			while (counter < numbers.Length) {
+				numbers[counter] = GetNum();
+				counter++;
+			}
+			
+			int testNumber = GetNum();
+			
+			counter = 0;
+			
+			int repeats = 0;
+			
+			while (counter < numbers.Length) {
+				if (numbers[counter] == testNumber) {
+					repeats += 1;
+				}
+				counter++;
+			}
+			
+			if (repeats > 0) {
+				Console.WriteLine(String.Format("The last number you entered was entered was not unique. It was found {0} times.", repeats));
+			} else {
+				Console.WriteLine("Thanks for the unique number at the end there.");
 			}
 		}
 	}
