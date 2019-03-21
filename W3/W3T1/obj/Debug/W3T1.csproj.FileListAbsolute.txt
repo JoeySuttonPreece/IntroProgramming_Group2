@@ -1,6 +1,0 @@
-C:\Users\102568393\Desktop\temp\W3\W3T1\bin\Debug\W3T1.exe.config
-C:\Users\102568393\Desktop\temp\W3\W3T1\bin\Debug\W3T1.exe
-C:\Users\102568393\Desktop\temp\W3\W3T1\bin\Debug\W3T1.pdb
-C:\Users\102568393\Desktop\temp\W3\W3T1\obj\Debug\W3T1.csprojResolveAssemblyReference.cache
-C:\Users\102568393\Desktop\temp\W3\W3T1\obj\Debug\W3T1.exe
-C:\Users\102568393\Desktop\temp\W3\W3T1\obj\Debug\W3T1.pdb
