@@ -1,0 +1,6 @@
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\obj\Debug\W4.csprojResolveAssemblyReference.cache
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\bin\Debug\W4.exe.config
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\bin\Debug\W4.exe
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\bin\Debug\W4.pdb
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\obj\Debug\W4.exe
+C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W4\W4\obj\Debug\W4.pdb
