@@ -1,6 +1,0 @@
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\obj\Debug\W3Combo.csprojResolveAssemblyReference.cache
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\bin\Debug\W3Combo.exe.config
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\bin\Debug\W3Combo.exe
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\bin\Debug\W3Combo.pdb
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\obj\Debug\W3Combo.exe
-C:\Users\102568393\Desktop\temp\IntroProgramming_Group2\W4\W3Combo\W3Combo\obj\Debug\W3Combo.pdb
